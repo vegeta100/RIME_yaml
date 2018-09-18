@@ -7,3 +7,4 @@ patch:
     - { when: has_menu, accept: apostrophe, send: 3 }
     - { when: paging, accept: bracketleft, send: Page_Up }
     - { when: has_menu, accept: bracketright, send: Page_Down }
+    - { when: composing, accept: Return, send: "Shift+Return"}
