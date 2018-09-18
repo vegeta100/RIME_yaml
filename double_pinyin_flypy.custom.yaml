@@ -8,3 +8,10 @@ patch:
     - { when: paging, accept: bracketleft, send: Page_Up }
     - { when: has_menu, accept: bracketright, send: Page_Down }
     - { when: composing, accept: Return, send: "Shift+Return"}
+  switches:
+    - name: full_shape
+      states: ["半角", "全角"]
+    - name: ascii_punct
+      states: ["，。", "，．"]
+    - name: simplification
+      states: ["漢字", "汉字"]
