@@ -1,0 +1,15 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.9.30
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Tue Sep 18 12:00:52 2018"
+  rime_version: 1.1.2
+patch:
+  "menu/page_size": 5
+  schema_list:
+    - {schema: double_pinyin_flypy}
+    - {schema: terra_pinyin}
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Shift_L: commit_code
+    Shift_R: inline_ascii
