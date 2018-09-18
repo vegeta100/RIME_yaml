@@ -15,3 +15,4 @@ patch:
       states: ["，。", "，．"]
     - name: simplification
       states: ["漢字", "汉字"]
+  translator/enable_user_dict: false
