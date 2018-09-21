@@ -7,6 +7,7 @@ patch:
     - { when: paging, accept: bracketleft, send: Page_Up }
     - { when: has_menu, accept: bracketright, send: Page_Down }
     - { when: composing, accept: Return, send: "Shift+Return"}
+    - { when: always, accept: Release+Escape, toggle: ascii_mode}
   switches:
     - name: full_shape
       states: ["半角", "全角"]
