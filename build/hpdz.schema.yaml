@@ -1,0 +1,57 @@
+__build_info:
+  rime_version: 1.3.1
+  timestamps:
+    default: 1523121152
+    default.custom: 1537405596
+    hpdz.custom: 0
+    hpdz.schema: 1537339145
+engine:
+  filters:
+    - uniquifier
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+    - reverse_lookup_translator
+menu:
+  page_size: 5
+schema:
+  name: "小鹤单字反查专用"
+  schema_id: hpdz
+  version: 1
+speller:
+  algebra:
+    - "derive/^.(.*)$/`$1/"
+    - "derive/^(.).(.*)$/$1`$2/"
+    - "derive/^(..).(.*)$/$1`$2/"
+    - "derive/^(...).$/$1`/"
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;"
+  auto_select: true
+  auto_select_pattern: "^;.$|^\\w{4}$"
+  delimiter: " '"
+  initials: "abcdefghijklmnopqrstuvwxyz;"
+  max_code_length: 4
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["中文", "西文"]
+translator:
+  dictionary: hpdz
+  enable_charset_filter: false
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
