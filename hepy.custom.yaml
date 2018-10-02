@@ -17,3 +17,5 @@ patch:
       states: ["漢字", "汉字"]
   translator/enable_user_dict: false
   speller/auto_select: true
+  speller/alphabet: "zyxwvutsrqponmlkjihgfedcba"
+  speller/initials: "abcdefghijklmnopqrstuvwxyz"
