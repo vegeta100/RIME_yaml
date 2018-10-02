@@ -16,3 +16,4 @@ patch:
     - name: simplification
       states: ["漢字", "汉字"]
   translator/enable_user_dict: false
+  speller/auto_select: false
