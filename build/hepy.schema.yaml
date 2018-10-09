@@ -3,9 +3,9 @@ __build_info:
   timestamps:
     default: 1523121152
     default.custom: 1537405596
-    hepy.custom: 1538464417
-    hepy.schema: 1538454522
-    symbols: 1394122104
+    hepy.custom: 1538470915
+    hepy.schema: 1538470886
+    symbols: 1538470121
     symbols.custom: 0
 bmma:
   comment_format:
@@ -278,13 +278,13 @@ schema:
   schema_id: hepy
   version: 1.custom.2797503865
 speller:
-  alphabet: "zyxwvutsrqponmlkjihgfedcba;"
+  alphabet: zyxwvutsrqponmlkjihgfedcba
   auto_clear: max_length
   auto_select: true
   auto_select_pattern: "^;.$|^\\w{4}$"
   auto_select_unique_candidate: true
   delimiter: " '"
-  initials: "abcdefghijklmnopqrstuvwxyz;"
+  initials: abcdefghijklmnopqrstuvwxyz
   max_code_length: 4
 switches:
   - name: full_shape

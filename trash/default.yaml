@@ -1,14 +1,10 @@
-__build_info:
-  rime_version: 1.3.1
-  timestamps:
-    default: 1523121152
-    default.custom: 1537405596
 ascii_composer:
   good_old_caps_lock: true
   switch_key:
     Shift_L: commit_code
     Shift_R: inline_ascii
-config_version: 0.37
+config_version: 0.34.custom.4002239190
+customization: 4002239190
 key_binder:
   bindings:
     - {accept: "Control+p", send: Up, when: composing}
@@ -24,9 +20,9 @@ key_binder:
     - {accept: "Control+bracketleft", send: Escape, when: composing}
     - {accept: "Alt+v", send: Page_Up, when: composing}
     - {accept: "Control+v", send: Page_Down, when: composing}
-    - {accept: ISO_Left_Tab, send: "Shift+Left", when: composing}
-    - {accept: "Shift+Tab", send: "Shift+Left", when: composing}
-    - {accept: Tab, send: "Shift+Right", when: composing}
+    - {accept: ISO_Left_Tab, send: Page_Up, when: composing}
+    - {accept: "Shift+Tab", send: Page_Up, when: composing}
+    - {accept: Tab, send: Page_Down, when: composing}
     - {accept: minus, send: Page_Up, when: has_menu}
     - {accept: equal, send: Page_Down, when: has_menu}
     - {accept: comma, send: Page_Up, when: paging}
@@ -96,7 +92,7 @@ punctuator:
     "-": "-"
     .: {commit: "。"}
     "/": ["、", "/", "／", "÷"]
-    ":": {commit: "："}
+    ":": ":"
     ";": {commit: "；"}
     "<": ["《", "〈", "«", "‹"]
     "=": "="
@@ -122,13 +118,10 @@ schema_list:
   - schema: hepy
   - schema: terra_pinyin
 switcher:
-  abbreviate_options: true
   caption: "〔方案選單〕"
-  fold_options: true
   hotkeys:
     - "Control+q"
     - "Control+Q"
-  option_list_separator: "／"
   save_options:
     - full_shape
     - ascii_punct
