@@ -1,7 +1,0 @@
-# Rime user dictionary
-#@/db_name	terra_pinyin.userdb.kct
-#@/db_type	userdb
-#@/rime_version	1.1.2
-#@/tick	1
-#@/user_id	1ff35617-827c-45d7-855b-2ad2ec0581f5
-fang1 zhou1 zi3 	方舟子	c=1 d=1 t=1
