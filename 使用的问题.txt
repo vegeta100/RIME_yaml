@@ -7,3 +7,6 @@ git-bash、git-cmd是linux的壳，和windows的一般程序有所不同，所�
 我的猜想是错的，尽管git-cmd带了引号，但是它还是起作用了，默认为英文。
 
 重新部署没反应的时候，退出小狼毫，在小狼毫程序文件夹双击weaselserver.exe
+
+在台式机上打不出中文，是一开始就抓取了最新版本，删除了根目录下的schema.yaml文件所致
+我猜想，rime的代码逻辑是由根目录的schema.yaml做牵引，再到build的schema.yaml，所以，一开始会有错。
