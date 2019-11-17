@@ -1,6 +1,6 @@
 patch:
   "style/display_tray_icon": true
-  "style/horizontal": true #横竖排
+  "style/horizontal": false #横竖排
   "style/font_face": "Microsoft YaHei Mono" #微软雅黑
   "style/font_point": 13 #字号13
   "app_options/git-bash.exe": 
