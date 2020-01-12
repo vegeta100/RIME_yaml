@@ -11,3 +11,7 @@ patch:
     ascii_mode: true
   "app_options/studio64.exe": 
     ascii_mode: true
+  "app_options/chrome.exe": 
+    simplification: false
+  "app_options/firefox.exe": 
+    simplification: false
